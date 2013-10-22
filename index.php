@@ -17,6 +17,12 @@ include "methods/mysql-to-api.php";
 // Local JSON to API
 include "methods/json-to-api.php";
 
+// Github JSON to API
+include "methods/github-json-to-api.php";
+
+// Github JSON to API
+include "methods/public-google-spreadsheet-to-api.php";
+
 $app->run();	
 
 ?>
